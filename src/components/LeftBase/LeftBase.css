@@ -1,0 +1,95 @@
+#left-base {
+    display: flex;
+    flex-direction: column;
+    background-color: #DC0A2D;
+    width: 450px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+#leds-container {
+    display: flex;
+}
+
+#small-led-container {
+    display: flex;
+
+}
+
+.small-led {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+#green-led {
+    background-color: green;
+}
+
+#red-led {
+    background-color: #A3011C;
+}
+
+#yellow-led {
+    background-color: #9F8A0A;
+}
+
+#big-led {
+    width: 75px;
+    height: 75px;
+    background-color: #27ABFF;
+    border-radius: 100%;
+}
+
+#screen-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#screen-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    width: 275px;
+    height: 250px;
+}
+
+#screen {
+    width: 205px;
+    height: 175px;
+    background-color: black;
+}
+
+#bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+#round-button {
+    background-color : black;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+#green-screen {
+    width: 125px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 5px;
+    border: 2px solid black;
+}
+
+#d-pad {
+    display: flex;
+    
+}
+
+.d-pad-button {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+}
+

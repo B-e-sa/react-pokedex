@@ -1,0 +1,64 @@
+#right-base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DC0A2D;
+    min-width: 450px;
+    height: 490px;
+}
+
+#right-screen {
+    color: white;
+    background-color: black;
+    width: 360px;
+    height: 130px;
+}
+
+#numpad-container {
+    display: grid;
+    grid-template-rows: 44px 44px;
+    grid-template-columns: 72px 72px 72px 72px 72px;
+}
+
+.numpad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28AAFE;
+    cursor: pointer;
+    border: none;
+}
+
+.numpad-button:active {
+    background-color: #079cff;
+    color: white;
+}
+
+#white-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+    width: 75px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#type-display-container {
+    display: flex;
+}
+
+.type-displayer {
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: black;
+}
